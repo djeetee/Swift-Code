@@ -13,14 +13,14 @@ func fizzBuzz(until: Int) -> Void {
         f35 = f3 && f5
 
         switch (f3, f5, f35) {
-        case (false, false, true):
-            print("fizzbuzz")
-        case (true, false, false):
-            print("fizz")
-        case (false, true, false):
-            print("fuzz")
-        default:
-            print(i)
+            case (false, false, true):
+                print("fizzbuzz")
+            case (true, false, false):
+                print("fizz")
+            case (false, true, false):
+                print("fuzz")
+            default:
+                print(i)
         }
     }
 }
